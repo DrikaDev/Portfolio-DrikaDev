@@ -17,7 +17,7 @@ export default function Home() {
                         <Link to="/my_hobbies">Hobbies</Link>
                     </li>
                     <li>
-                        <Link to="/academic_formation">Formação Acadêmica</Link>
+                        <Link to="/academic_formation">Formação & Cursos</Link>
                     </li>
                     <li>
                         <Link to="/my_projects">Meus Projetos</Link>

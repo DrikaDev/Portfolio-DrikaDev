@@ -5,6 +5,7 @@ import Unip from "../../Assets/unip.png"
 import Uninove from "../../Assets/uninove.png"
 import VaiNaWeb from "../../Assets/VaiNaWeb.png"
 import Anhanguera from "../../Assets/anhanguera.png"
+import Generation from "../../Assets/Generation.png"
 import * as S from "./style"
 
 export default function AcademicFormation() {
@@ -45,23 +46,39 @@ export default function AcademicFormation() {
                 </div>
 
                 <div>
+                    <img src={Anhanguera} alt="Logo Anhanguera" />
+                    <S.Paragrafo>
+                        <p>Análise e Desenvolvimento de Sistemas</p>
+                        <p>2023 - 2025</p>
+                        <p>Em andamento</p>
+                    </S.Paragrafo>
+                </div>
+
+            </S.Box_AcademicFormation>
+
+            <h1>Cursos Extra Curriculares</h1>
+
+            <S.Box_ExtracurricularCourses>
+                
+                <div>
                     <img src={VaiNaWeb} alt="Logo VaiNaWeb" />
                     <S.Paragrafo>
-                        <p>Técnico de FrontEnd</p>
+                        <p>FrontEnd Jr</p>
                         <p>2022</p>
                         <p>Concluído</p>
                     </S.Paragrafo>
                 </div>
 
                 <div>
-                    <img src={Anhanguera} alt="Logo Anhanguera" />
+                    <img src={Generation} alt="Logo Generation" />
                     <S.Paragrafo>
-                        <p>Análise e Desenvolvimento de Sistemas</p>
-                        <p>2023 - 2024</p>
-                        <p>Em andamento</p>
+                        <p>Full Stack Jr</p>
+                        <p>2023</p>
+                        <p>Concluído</p>
                     </S.Paragrafo>
                 </div>
-            </S.Box_AcademicFormation>
+
+            </S.Box_ExtracurricularCourses>
 
         </S.Container>
     )

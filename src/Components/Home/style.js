@@ -49,7 +49,7 @@ export const Box = styled.div`
 
     li{
         font-weight: bolder;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         list-style: none;
     }
 
@@ -75,7 +75,6 @@ export const Box = styled.div`
 
         li{
             line-height: 2.5rem;
-            font-size: 1.5rem;
         }
 
         a{

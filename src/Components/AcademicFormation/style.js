@@ -13,20 +13,18 @@ export const Container = styled.section`
 
     h1{
         color: whitesmoke;
-        font-size: 3rem;
+        font-size: 2rem;
         letter-spacing: 1rem;
         text-align: center;
         text-shadow: 0px 0px 20px wheat;
         width: 100%;
-        margin-bottom: 2rem;
     }
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
-        flex-direction: column;
+        height: 115vh;
 
         h1{
-            font-size: 2rem;
-            margin-bottom: 0;
+            font-size: 1.5rem;
             margin-top: 1rem;
         }
     }
@@ -65,19 +63,21 @@ export const Home = styled.div`
 export const Box_AcademicFormation = styled.section`
     display: flex;
     flex-direction: row;
-    height: 39rem;
+    height: 40rem;
     justify-content: space-around;
     margin-top: 1rem;
     padding: 1rem;
     width: 100%;
 
     div{
+        background-color: white;
         border-radius: 10px;
         box-shadow: 0px 0px 20px white;
         width: 15rem;
         height: 15rem;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         padding: 1rem;
         transition: 1s all;
@@ -106,16 +106,63 @@ export const Box_AcademicFormation = styled.section`
         }
     }
 `
+
+export const Box_ExtracurricularCourses = styled.section`
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+
+    div{
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px white;
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+        transition: 1s all;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    img{
+        width: 10rem;
+    }
+
+    @media only screen and (min-width: 360px) and (max-width: 800px){
+        flex-wrap: wrap;
+
+        div{
+            height: 6rem;
+            flex-direction: row;
+            width: 21rem;
+        }
+
+        img{
+            width: 7rem;
+            margin-right: 1rem;
+        }
+    }
+`
+
 export const Paragrafo = styled.p`
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     p{
-        color: wheat;
-        font-size: 1.3rem;
+        color: black;
         text-align: center;
         margin-top: 0.5rem;
         width: 100%;
@@ -128,7 +175,6 @@ export const Paragrafo = styled.p`
             display: flex;
             justify-content: center;
             margin-top: 0;
-            font-size: 1rem;
         }
     }         
 `
