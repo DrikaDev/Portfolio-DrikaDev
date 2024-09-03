@@ -76,8 +76,8 @@ export const Information = styled.div`
 
     div{
         line-height: 3rem;
-        padding: 1rem;
-        width: 100%;
+        padding: 1.5rem;
+        width: 80%;
     }
 
     p{
@@ -101,12 +101,14 @@ export const Information = styled.div`
 
         img{
             float: left;
-            width: 10rem;
+            margin-right: 10px;
+            width: 9rem;
         }
 
         div{
-            line-height: 1.5rem;
-        }
+        line-height: 1.5rem;
+        width: 100%;
+    }
 
         p{
             font-size: 1rem;

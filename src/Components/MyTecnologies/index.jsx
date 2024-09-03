@@ -6,7 +6,7 @@ import Html from "../../Assets/html.png"
 import CSS from "../../Assets/css.png"
 import JS from "../../Assets/javascript.png"
 import Java from "../../Assets/java.png"
-import FotoReact from "../../Assets/react.png"
+import React_img from "../../Assets/react.png"
 import Git from "../../Assets/git.png"
 import * as S from "../MyTecnologies/style"
 
@@ -38,7 +38,7 @@ export default function MySkills() {
                             <img src={CSS} alt="Logo CSS" />
                             <img src={JS} alt="Logo JavaScript" />
                             <img src={Java} alt="Logo Java" />
-                            <img src={FotoReact} alt="Logo React" />
+                            <img src={React_img} alt="Logo React" />
                             <img src={Git} alt="Logo Git" />
                         </figure>
 

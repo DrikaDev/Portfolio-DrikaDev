@@ -10,6 +10,7 @@ export const Container = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 
     h1{
         color: whitesmoke;
@@ -21,7 +22,7 @@ export const Container = styled.section`
     }
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
-        height: 115vh;
+        height: 130vh;
 
         h1{
             font-size: 1.5rem;
@@ -34,7 +35,6 @@ export const Home = styled.div`
     width: 100%;
 
     img{
-        object-fit: contain;
         width: 3rem;
     }
     
@@ -63,10 +63,8 @@ export const Home = styled.div`
 export const Box_AcademicFormation = styled.section`
     display: flex;
     flex-direction: row;
-    height: 40rem;
     justify-content: space-around;
-    margin-top: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     width: 100%;
 
     div{
@@ -74,12 +72,11 @@ export const Box_AcademicFormation = styled.section`
         border-radius: 10px;
         box-shadow: 0px 0px 20px white;
         width: 15rem;
-        height: 15rem;
+        height: 13rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        padding: 1rem;
+        justify-content: center;
         transition: 1s all;
 
         &:hover{
@@ -88,7 +85,8 @@ export const Box_AcademicFormation = styled.section`
     }
 
     img{
-        width: 10rem;
+        width: 8rem;
+        margin-top: 1rem;
     }
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
@@ -98,11 +96,17 @@ export const Box_AcademicFormation = styled.section`
             height: 6rem;
             flex-direction: row;
             width: 21rem;
+            margin-bottom: 10px;
+            box-shadow: none;
+
+            &:hover{
+                transform: none;
+            }
         }
 
         img{
-            width: 7rem;
-            margin-right: 1rem;
+            width: 6rem;
+            margin-left: 10px;
         }
     }
 `
@@ -110,10 +114,8 @@ export const Box_AcademicFormation = styled.section`
 export const Box_ExtracurricularCourses = styled.section`
     display: flex;
     flex-direction: row;
-    height: 40rem;
     justify-content: space-around;
-    margin-top: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     width: 100%;
 
     div{
@@ -121,7 +123,7 @@ export const Box_ExtracurricularCourses = styled.section`
         border-radius: 10px;
         box-shadow: 0px 0px 20px white;
         width: 15rem;
-        height: 15rem;
+        height: 13rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -135,7 +137,8 @@ export const Box_ExtracurricularCourses = styled.section`
     }
 
     img{
-        width: 10rem;
+        width: 8rem;
+        margin-top: 1rem;
     }
 
     @media only screen and (min-width: 360px) and (max-width: 800px){
@@ -145,18 +148,23 @@ export const Box_ExtracurricularCourses = styled.section`
             height: 6rem;
             flex-direction: row;
             width: 21rem;
+            margin-bottom: 10px;
+            box-shadow: none;
+
+            &:hover{
+                transform: none;
+            }
         }
 
         img{
-            width: 7rem;
-            margin-right: 1rem;
+            width: 6rem;
         }
     }
 `
 
 export const Paragrafo = styled.p`
     width: 100%;
-    height: 8rem;
+    height: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

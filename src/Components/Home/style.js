@@ -15,7 +15,9 @@ export const Container = styled.body`
         text-shadow: 0 0 5px white;
         font-size: 1rem;
         height: 2rem;
-        padding-left: 13rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
 
@@ -24,9 +26,8 @@ export const Container = styled.body`
         height: 110vh;
 
         h5{
-            height: 4rem;
+            height: 3rem;
             margin: 0 auto;
-            padding-left: 0;
             text-align: center;
             width: 90%;
         }

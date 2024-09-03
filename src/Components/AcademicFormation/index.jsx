@@ -1,85 +1,78 @@
 import React from "react";
-import { Link } from "react-router-dom"
-import Astronauta from "../../Assets/Drika_Astronauta.png"
-import Unip from "../../Assets/unip.png"
-import Uninove from "../../Assets/uninove.png"
-import VaiNaWeb from "../../Assets/VaiNaWeb.png"
-import Anhanguera from "../../Assets/anhanguera.png"
-import Generation from "../../Assets/Generation.png"
-import * as S from "./style"
+import { Link } from "react-router-dom";
+import Astronauta from "../../Assets/Drika_Astronauta.png";
+import Unip from "../../Assets/unip.png";
+import Uninove from "../../Assets/uninove.png";
+import VaiNaWeb from "../../Assets/VaiNaWeb.png";
+import Anhanguera from "../../Assets/anhanguera.png";
+import Generation from "../../Assets/Generation.png";
+import * as S from "./style";
 
 export default function AcademicFormation() {
-    return (
-        <S.Container>
-            <S.Home>
-                <Link to="/"><img src={Astronauta} alt="Desenho Drika Astronauta"/>Início</Link>
-            </S.Home>
+  return (
+    <S.Container>
+      <S.Home>
+        <Link to="/">
+          <img src={Astronauta} alt="Desenho Drika Astronauta" />
+          Início
+        </Link>
+      </S.Home>
 
-            <h1>Formação Acadêmica</h1>
+      <h1>Formação Acadêmica</h1>
 
-            <S.Box_AcademicFormation>
-                <div>
-                    <img src={Unip} alt="Logo Unip" />
-                    <S.Paragrafo>
-                        <p>Gestão de RH</p>
-                        <p>2007</p>
-                        <p>Concluído</p>
-                    </S.Paragrafo>
-                </div>
+      <S.Box_AcademicFormation>
+        <div>
+          <img src={Unip} alt="Logo Unip" />
+          <S.Paragrafo>
+            <p>Gestão de RH</p>
+            <p>Concluído em 2007</p>
+          </S.Paragrafo>
+        </div>
 
-                <div>
-                    <img src={Uninove} alt="Logo Uninove" />
-                    <S.Paragrafo>
-                        <p>Pós em Tradução Português/Inglês</p>
-                        <p>2011</p>
-                        <p>Concluído</p>
-                    </S.Paragrafo>
-                </div>
+        <div>
+          <img src={Uninove} alt="Logo Uninove" />
+          <S.Paragrafo>
+            <p>Pós em Tradução Português/Inglês</p>
+            <p>Concluído em 2011</p>
+          </S.Paragrafo>
+        </div>
 
-                <div>
-                    <img src={Uninove} alt="Logo Uninove" />
-                    <S.Paragrafo>
-                        <p>Gestão em Secretariado</p>
-                        <p>2014</p>
-                        <p>Concluído</p>
-                    </S.Paragrafo>
-                </div>
+        <div>
+          <img src={Uninove} alt="Logo Uninove" />
+          <S.Paragrafo>
+            <p>Secretariado</p>
+            <p>Concluído em 2014</p>
+          </S.Paragrafo>
+        </div>
 
-                <div>
-                    <img src={Anhanguera} alt="Logo Anhanguera" />
-                    <S.Paragrafo>
-                        <p>Análise e Desenvolvimento de Sistemas</p>
-                        <p>2023 - 2025</p>
-                        <p>Em andamento</p>
-                    </S.Paragrafo>
-                </div>
+        <div>
+          <img src={Anhanguera} alt="Logo Anhanguera" />
+          <S.Paragrafo>
+            <p>Análise e Desenvolvimento de Sistemas</p>
+            <p>Conclusão para 07/25</p>
+          </S.Paragrafo>
+        </div>
+      </S.Box_AcademicFormation>
 
-            </S.Box_AcademicFormation>
+      <h1>Cursos Extra Curriculares</h1>
 
-            <h1>Cursos Extra Curriculares</h1>
+      <S.Box_ExtracurricularCourses>
+        <div>
+          <img src={VaiNaWeb} alt="Logo VaiNaWeb" />
+          <S.Paragrafo>
+            <p>FrontEnd Jr</p>
+            <p>Concluído em 2022</p>
+          </S.Paragrafo>
+        </div>
 
-            <S.Box_ExtracurricularCourses>
-                
-                <div>
-                    <img src={VaiNaWeb} alt="Logo VaiNaWeb" />
-                    <S.Paragrafo>
-                        <p>FrontEnd Jr</p>
-                        <p>2022</p>
-                        <p>Concluído</p>
-                    </S.Paragrafo>
-                </div>
-
-                <div>
-                    <img src={Generation} alt="Logo Generation" />
-                    <S.Paragrafo>
-                        <p>Full Stack Jr</p>
-                        <p>2023</p>
-                        <p>Concluído</p>
-                    </S.Paragrafo>
-                </div>
-
-            </S.Box_ExtracurricularCourses>
-
-        </S.Container>
-    )
+        <div>
+          <img src={Generation} alt="Logo Generation" />
+          <S.Paragrafo>
+            <p>Full Stack Java Jr</p>
+            <p>Concluído em 2023</p>
+          </S.Paragrafo>
+        </div>
+      </S.Box_ExtracurricularCourses>
+    </S.Container>
+  );
 }

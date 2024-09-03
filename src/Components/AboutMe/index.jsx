@@ -20,7 +20,7 @@ export default function AboutMe() {
                     <img src={DesenhoDrikaDev} alt="Desenho Drika acenando" />
 
                     <div>
-                        <p>Olá, muito prazer, sou Adriana Gutierrez, mas pode me chamar de Drika Dev!</p>
+                        <p>Olá, muito prazer, sou Adriana Gutierrez, mas pode me chamar de Drika!</p>
                         <p>Iniciei meus estudos com tecnologia em Janeiro de 2022 e estou amando e curtindo cada aprendizado!</p>
 
                         <p>Sempre gostei muito de computador e artesanato (sou bastante criativa e caprichosa), por isso,
